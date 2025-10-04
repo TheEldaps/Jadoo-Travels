@@ -1,17 +1,18 @@
 import Image from "next/image";
+import { StaticImageData } from "next/image";
 
 export default function CategoryCards({
-  imageSrc,
+  image,
   title,
   description,
 }: {
-  imageSrc: string;
+  image: StaticImageData;
   title: string;
   description: string;
 }) {
   return (
     <li>
-      <Image src={imageSrc} width="100" height="100" alt="Service image" />
+      <Image src={image} width="100" height="100" alt="Service image" />
       <h4>{title}</h4>
       <p>{description}</p>
     </li>
