@@ -13,8 +13,8 @@ export default function Destinations() {
         price="$43"
         triplength="12days"
       />
-      {/* <DestinationCard />
-      <DestinationCard /> */}
+      <DestinationCard img={Destination2} location="" cost="" triplength="" />
+      <DestinationCard img={Destination3} location="" cost="" triplength="" />
     </section>
   );
 }
