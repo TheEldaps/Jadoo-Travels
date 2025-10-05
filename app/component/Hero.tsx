@@ -4,28 +4,28 @@ import HeroImage from "../../public/HeroImage.png";
 
 export default function Hero() {
   return (
-    <section className="flex justify-evenly pt-[30px] mb-[500rem]">
+    <section className="flex justify-evenly pt-[30px] px-[50px] mb-[100px]">
       <section className="pt-10 max-w-[50%]">
         <h3 className="text-[#DF6951] text-[1.2rem] font-[poppins] font-bold my-2 mb-5">
           BEST DESTINATIONS AROUND THE WORLD
         </h3>
 
         <h1 className="font-[volkhov] text-[#181E4B] text-[5rem] font-bold leading-[80px] tracking-tighter">
-          Travel,
+          Travel,{" "}
           <span className="relative inline-block">
             <span className="relative z-10">enjoy</span>
             <span
               aria-hidden="true"
-              className="absolute left-0 right-0 -bottom-1 z-0 w-full h-3 bg-no-repeat bg-center bg-contain bg-[url('../../public/UnderlineDecore.png')]"
+              className="absolute left-0 right-0 -bottom-1 z-0 w-full h-3 bg-no-repeat bg-center bg-contain bg-[url('/UnderlineDecoreEdit.png')]"
             />
           </span>{" "}
           and live a new and full life
         </h1>
 
-        <p className="mt-[20px] font-[poppins]">
+        <p className="mt-[20px] font-[poppins] text-justify max-w-[80%]">
           Built wicket longer admire do barton vanity itself do in it.
-          <br /> Prefferred to sportsmen it engrossed listening.Park gate sell
-          they west hard for the.
+          Prefferred to sportsmen it engrossed listening.Park gate sell they
+          west hard for the.
         </p>
 
         <div className="flex gap-10 items-center mt-[20px]  ">
@@ -50,8 +50,9 @@ export default function Hero() {
         <Image
           src={HeroImage}
           height="784"
-          width="764"
+          width="900"
           alt="hero section image"
+          className="w-"
         />
       </section>
     </section>
