@@ -13,17 +13,26 @@ export default function DestinationCard({
   triplength: string;
 }) {
   return (
-    <section>
-      <Image src={img} height="457" width="314" alt="Destination pictures" />
-      <div>
-        <div>{location}</div>
-        <div>{price}</div>
+    <section className="rounded-3xl border-1 ">
+      <Image
+        src={img}
+        height=""
+        width=""
+        alt="Destination pictures"
+        className="h-[]"
+      />
+      <div className="font-[poppins] border-1">
+        <div className="flex justify-between px-[10px]">
+          <div>{location}</div>
+          <div>{price}</div>
+        </div>
         <div>
           <Image
             src={NavigationIcon}
             width="18"
             height="18"
             alt="Trip lenght icon"
+            className="inline mr-2"
           />
           {triplength}
         </div>
