@@ -1,23 +1,29 @@
 import Image from "next/image";
-import Logo from "../../public/Jadoo.png";
+import Logo from "../../public/Logo.png";
+import Link from "next/link";
+import NavLink from "./NavLink";
+
 export default function Nav() {
   return (
-    <nav className="flex justify-evenly">
-      <Image src={Logo} width="50" height="50" alt="Website Logo" />
+    <nav className="flex justify-between py-5 font-[poppins] border-b-2 items-center ">
+      <Link href="/">
+        <Image src={Logo} width="115" height="35" alt="Website Logo" />
+      </Link>
 
-      <ul>
-        <li>Destinations</li>
-        <li>Hotels</li>
-        <li>Flights</li>
-        <li>Bookings</li>
-      </ul>
+      <ul className="flex items-center gap-x-10">
+        <NavLink href="" title="Destinations" />
+        <NavLink href="" title="Hotels" />
+        <NavLink href="" title="Flights" />
+        <NavLink href="" title="Booking" />
+        <NavLink href="" title="Login" />
 
-      <ul>
-        <li>Login</li>
+        <button className="border-1 px-4 py-1 rounded">
+          <NavLink href="" title="Signup" />
+        </button>
+
         <li>
-          <button>Sign up</button>
+          <Link href="">EN</Link>
         </li>
-        <li>EN</li>
       </ul>
     </nav>
   );
