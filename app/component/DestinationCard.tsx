@@ -13,20 +13,21 @@ export default function DestinationCard({
   triplength: string;
 }) {
   return (
-    <section className="rounded-3xl border-1 ">
+    <section className="rounded-3xl  relative min-h-[500px] min-w-[300px] shadow-2xl">
       <Image
         src={img}
         height=""
         width=""
         alt="Destination pictures"
-        className="h-[]"
+        className="object-cover w-full h-full rounded-3xl"
       />
-      <div className="font-[poppins] border-1">
-        <div className="flex justify-between px-[10px]">
-          <div>{location}</div>
+
+      <div className="font-[poppins] text-[#5E6282] w-[100%] bg-white px-[10px] py-[10px] pb-[20px] absolute bottom-0 rounded-b-3xl">
+        <div className="flex justify-between text-[1.1rem] px-[10px] py-[10px]  mb-[10px] font-medium">
+          <div className="">{location}</div>
           <div>{price}</div>
         </div>
-        <div>
+        <div className="text-[1rem]  px-[10px]">
           <Image
             src={NavigationIcon}
             width="18"

@@ -19,7 +19,7 @@ export default function CategorySection() {
         We Offer Best Services
       </h2>
 
-      <ul className="flex justify-evenly gap-[7rem]">
+      <ul className="flex justify-evenly gap-[7rem] flex-wrap">
         <Card
           image={category1}
           description="Built Wicket longer admire do barton vanity itself do in it."
