@@ -7,10 +7,15 @@ import BookingStep3 from "../../public/BookingStep3.png";
 
 export default function BookingSection() {
   return (
-    <section>
-      <section>
-        <h4>Easy and Fast</h4>
-        <h2>Book Your Next Trip In 3 Easy steps</h2>
+    <section className="flex justify-center mb-[50px] text-[#5E6282]">
+      <section className=" px-[50px] flex flex-col justify-center">
+        <h3 className="font-[poppins] font-medium mb-[10px] text-[#5E6282]">
+          Easy and Fast
+        </h3>
+        <h2 className="font-[volkhov] text-4xl text-[#14183E] font-bold mb-[40px]">
+          Book Your Next Trip <br />
+          In 3 Easy steps
+        </h2>
         <ul>
           <BookingStepsCard
             img={BookingStep1}
@@ -31,12 +36,13 @@ export default function BookingSection() {
           />
         </ul>
       </section>
-      <section>
+      <section className=" pt-[0px] max-h-[500px] ">
         <Image
           src={BookingImage}
           width="655"
           height="789"
           alt="Booking Section Image"
+          className="block w-[500px] h-[560px] start object-cover"
         />
       </section>
     </section>

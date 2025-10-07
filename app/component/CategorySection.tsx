@@ -12,7 +12,7 @@ import category4 from "../../public/Category 4.png";
 export default function CategorySection() {
   return (
     <section className="px-[30px] mb-[150px]">
-      <h3 className="font-[poppins] font-medium text-center mb-[20px]">
+      <h3 className="font-[poppins] font-medium text-center mb-[20px] text-[#5E6282]">
         CATEGORY
       </h3>
       <h2 className="font-[volkhov] text-4xl text-[#14183E] font-bold text-center mb-[50px]">
