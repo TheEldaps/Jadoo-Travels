@@ -9,7 +9,7 @@ export default function SubscriptionSection() {
           about Jadoo
         </h2>
 
-        <section className="flex gap-4 max-w-[400px] mx-[auto] border">
+        <section className="flex gap-4 max-w-[400px] mx-[auto] ">
           <div className="flex flex-1 items-center px-[20px] bg-white h-12 rounded-lg gap-5">
             IMG
             <input

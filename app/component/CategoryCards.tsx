@@ -11,7 +11,7 @@ export default function CategoryCards({
   description: string;
 }) {
   return (
-    <li className=" rounded-4xl px-[20px] shadow-sm hover:shadow-md transition-shadow duration-300 max-w-[300px] ">
+    <li className=" rounded-4xl px-[20px]  max-w-[200px] ">
       <Image
         src={image}
         width="100"

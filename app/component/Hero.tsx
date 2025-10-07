@@ -4,7 +4,7 @@ import HeroImage from "../../public/HeroImage.png";
 
 export default function Hero() {
   return (
-    <section className="flex justify-evenly pt-[30px] px-[50px] mb-[100px]">
+    <section className="flex justify-evenly pt-[30px] px-[50px] mb-[200px]">
       <section className="pt-10 max-w-[50%]">
         <h3 className="text-[#DF6951] text-[1.2rem] font-[poppins] font-bold my-2 mb-5">
           BEST DESTINATIONS AROUND THE WORLD

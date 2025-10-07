@@ -1,16 +1,19 @@
 import FooterCards from "./FooterCards";
 import Image from "next/image";
+import placeholderimage from "../../public/Avatar.png";
 
 export default function FooterSection() {
   return (
-    <section>
-      <div className="flex">
-        <div>
-          <h3>Jadoo</h3>
-          <p>Book your trip in minutes, get full Control for much longer</p>
+    <section className="mb-[100px]">
+      <div className="flex gap-15 mb-[80px] justify-evenly">
+        <div className="max-w-[200px]">
+          <h2 className="font-bold mb-[20px] text-[2.5rem]">Jadoo.</h2>
+          <p className="text-[0.8rem]">
+            Book your trip in minutes, get full Control for much longer
+          </p>
         </div>
 
-        <div>
+        <div className="flex gap-10">
           <FooterCards
             heading="Company"
             link1="About"
@@ -42,11 +45,26 @@ export default function FooterSection() {
           />
         </div>
 
-        <div>
-          <div className="flex">
-            <Image src={} width="30" height="30" alt="facebook logo" />
-            <Image src={} width="30" height="30" alt="Instagram logo" />
-            <Image src={} width="30" height="30" alt="twitter logo" />
+        <div className="">
+          <div className="flex justify-evenly border-1">
+            <Image
+              src={placeholderimage}
+              width="30"
+              height="30"
+              alt="facebook logo"
+            />
+            <Image
+              src={placeholderimage}
+              width="30"
+              height="30"
+              alt="Instagram logo"
+            />
+            <Image
+              src={placeholderimage}
+              width="30"
+              height="30"
+              alt="twitter logo"
+            />
           </div>
 
           <p>Discover our app</p>

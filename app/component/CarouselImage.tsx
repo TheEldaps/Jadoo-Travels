@@ -6,8 +6,8 @@ export default function CouroselImage({ img }: { img: StaticImageData }) {
       src={img}
       width="50"
       height="50"
-      alt="Carousel"
-      className="w-[200px] h-[100px]"
+      alt="Carousel images"
+      className="w-[100px] h-[50px] "
     />
   );
 }
