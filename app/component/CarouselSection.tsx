@@ -8,7 +8,7 @@ import CarouselImage5 from "../../public/CarouselImage5.png";
 export default function CarouselSection() {
   return (
     <section>
-      <div className="flex justify-evenly items-center my-[100px] border-y-1">
+      <div className="flex justify-evenly items-center my-[100px] border-y-1 py-[50px]">
         <CarouselImage img={CarouselImage1} />
         <CarouselImage img={CarouselImage2} />
         <CarouselImage img={CarouselImage3} />

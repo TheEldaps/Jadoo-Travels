@@ -1,4 +1,6 @@
-import React from "react";
+import Image from "next/image";
+import InputIcon from "../../public/EnvelopeIcon.png";
+import DecoreSendButton from "../../public/DecoreSendButton.png"
 
 export default function SubscriptionSection() {
   return (
@@ -10,15 +12,21 @@ export default function SubscriptionSection() {
         </h2>
 
         <section className="flex gap-4 max-w-[400px] mx-[auto] ">
-          <div className="flex flex-1 items-center px-[20px] bg-white h-12 rounded-lg gap-5">
-            IMG
+          <div className="flex flex-1 items-center px-[20px] bg-white h-12 rounded-lg gap-3">
+            <Image
+              src={InputIcon}
+              alt=""
+              width="20"
+              height="20"
+              className="block mt-[5px]"
+            />
             <input
               type="text"
               placeholder="e.g jadoo@gmail.com"
-              className="block h-[70%] w-[100%] leading-[2rem]"
+              className="block h-[70%] w-[100%]"
             />
           </div>
-          <button className="hover:bg-[#ff7c6893] cursor-pointer bg-[#FF7D68]  py-[10px] px-[30px] rounded-lg text-white text-[0.8rem]">
+          <Image src={DecoreSendButton} className="hover:bg-[#ff7c6893] cursor-pointer bg-[#FF7D68] py-[10px] px-[30px] rounded-lg text-white text-[0.8rem]">
             Subscribe
           </button>
         </section>
