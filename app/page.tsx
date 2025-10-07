@@ -6,6 +6,7 @@ import BookingSection from "./component/BookingSection";
 import TestimonialSection from "./component/TestimonialSection";
 import CarouselSection from "./component/CarouselSection";
 import SubscriptionSection from "./component/SubscriptionSection";
+import FooterSection from "./component/FooterSection";
 
 export default function Home() {
   return (
@@ -24,7 +25,9 @@ export default function Home() {
         <SubscriptionSection />
       </main>
 
-      <footer></footer>
+      <footer>
+        <FooterSection />
+      </footer>
     </>
   );
 }
