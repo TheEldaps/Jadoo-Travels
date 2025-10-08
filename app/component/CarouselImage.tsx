@@ -4,10 +4,10 @@ export default function CauroselImage({ img }: { img: StaticImageData }) {
   return (
     <Image
       src={img}
-      width="50"
-      height="50"
+      width="145"
+      height="55"
       alt="Carousel images"
-      className="w-[100px] h-[50px] border-1 "
+      className="w-[140px] h-[auto] border-1 "
     />
   );
 }

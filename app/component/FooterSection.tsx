@@ -5,14 +5,17 @@ import SocialInstagram from "../../public/FooterInstaLogo.png";
 import SocialTwitter from "../../public/FooterTwitterLogo.png";
 import GooglePlay from "../../public/FooterGooglePlay.png";
 import AppStore from "../../public/FooterAppStore.png";
+import Link from "next/link";
 
 export default function FooterSection() {
   return (
-    <section className="mb-[100px]">
-      <div className="flex gap-15 mb-[80px] justify-evenly">
+    <section className="mb-[100px] text-[#5E6282]">
+      <div className="flex gap-15 mb-[80px] justify-evenly ">
         <div className="max-w-[200px]">
-          <h2 className="font-bold mb-[20px] text-[2.5rem]">Jadoo.</h2>
-          <p className="text-[0.8rem]">
+          <h2 className="font-medium mb-[20px] text-[2.5rem] font-[poppins] text-black">
+            Jadoo.
+          </h2>
+          <p className="text-[0.8rem] font-medium">
             Book your trip in minutes, get full Control for much longer
           </p>
         </div>
@@ -49,48 +52,62 @@ export default function FooterSection() {
           />
         </div>
 
-        <div className="text-[#5E6282]">
-          <div className="flex justify-evenly border-1 mb-[10px]">
-            <Image
-              src={SocialFacebook}
-              width="30"
-              height="30"
-              alt="facebook logo"
-            />
-            <Image
-              src={SocialInstagram}
-              width="30"
-              height="30"
-              alt="Instagram logo"
-            />
-            <Image
-              src={SocialTwitter}
-              width="30"
-              height="30"
-              alt="twitter logo"
-            />
+        <div className="text-[#5E6282] flex flex-col gap-1">
+          <div className="flex justify-start gap-5 mb-[10px]">
+            <Link href="/facebook">
+              <Image
+                src={SocialFacebook}
+                width="30"
+                height="30"
+                alt="facebook logo"
+              />
+            </Link>
+
+            <Link href="/instagram">
+              <Image
+                src={SocialInstagram}
+                width="30"
+                height="30"
+                alt="Instagram logo"
+              />
+            </Link>
+
+            <Link href="/twitter">
+              <Image
+                src={SocialTwitter}
+                width="30"
+                height="30"
+                alt="twitter logo"
+              />
+            </Link>
           </div>
 
-          <p className="">Discover our app</p>
+          <p className="mb-[10px] font-semibold text-[0.95rem]">
+            Discover our app
+          </p>
 
-          <div className="Flex ">
+          <div className="flex gap-3">
             <Image
               src={GooglePlay}
               alt="Google play app download"
               width="107"
               height="35"
+              className="w-[70px] h-[25px]"
             />
             <Image
               src={AppStore}
               alt="App store app download"
               width="107"
               height="35"
+              className="w-[70px] h-[25px]"
             />
           </div>
         </div>
       </div>
       <div>
-        <p className="text-center">All rights reserved@jadoo.co</p>
+        <p className="text-center text-[0.8rem]">
+          All rights reserved@jadoo.co
+        </p>
       </div>
     </section>
   );

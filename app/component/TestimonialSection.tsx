@@ -23,11 +23,11 @@ export default function TestimonialSection() {
         <div
           aria-hidden
           className="absolute inset-0 -z-10 w-[110%] h-[110%] mx-auto rounded-3xl"
-          style={{
-            background:
-              "radial-gradient(closest-side, rgba(20,24,62,0.06), transparent 40%), rgba(255,255,255,0)",
-            filter: "blur(20px)",
-          }}
+          // style={{
+          //   background:
+          //     "radial-gradient(closest-side, rgba(20,24,62,0.06), transparent 40%), rgba(255,255,255,0)",
+          //   filter: "blur(20px)",
+          // }}
         />
 
         {/* Three layered cards (stack effect): render from bottom to top */}

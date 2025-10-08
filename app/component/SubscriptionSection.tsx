@@ -8,7 +8,7 @@ export default function SubscriptionSection() {
       <div className="bg-[#DFD7F9] rounded-tl-[64px] rounded-tr-[16px] py-[40px] px-[100px] relative bg-[url('/SubscriptionBgDecore1.png')_,_url('/SubscriptionBgDecore2.png')] bg-no-repeat  bg-[position:left_bottom_,_right_top] bg-[length:40%_,_20%]">
         <h2 className="font-[poppins] text-[1.5rem] font-semibold text-center max-w-[600px] mb-[40px] text-[#5E6282]">
           Subscribe to get information, latest news and other interesting offers
-          about Jadoo HELLO
+          about Jadoo
         </h2>
 
         <section className="flex gap-4 max-w-[400px] mx-[auto] bg- ">

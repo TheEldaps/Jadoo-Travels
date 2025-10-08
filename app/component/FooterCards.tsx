@@ -19,8 +19,8 @@ export default function FooterCards({
 }) {
   return (
     <div>
-      <h3 className="mb-5 font-bold ">{heading}</h3>
-      <ul>
+      <h3 className="mb-5 font-bold text-black ">{heading}</h3>
+      <ul className="flex flex-col gap-1 font-medium text-[0.9rem]">
         <li>
           <Link href={href1}>{link1}</Link>
         </li>
