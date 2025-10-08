@@ -5,10 +5,10 @@ export default function TestimonialSection() {
     <section className="max-w-7xl mx-auto px-8 py-20 grid grid-cols-1 lg:grid-cols-2 gap-8 items-start ">
       {/* Left: heading */}
       <div className="order-2 lg:order-1">
-        <p className="text-sm font-medium text-[#5E6282] uppercase tracking-wider">
+        <p className="text-sm font-semibold text-[#5E6282] uppercase tracking-wider">
           TESTIMONIALS
         </p>
-        <h2 className="mt-4 text-5xl font-bold text-[#14183E] leading-tight">
+        <h2 className="mt-4 text-5xl font-bold font-[volkhov] text-[#14183E] leading-tight">
           What People Say About Us.
         </h2>
         <div className="mt-[80px] flex items-center gap-3 ">
@@ -23,17 +23,17 @@ export default function TestimonialSection() {
         <div
           aria-hidden
           className="absolute inset-0 -z-10 w-[110%] h-[110%] mx-auto rounded-3xl"
-          // style={{
-          //   background:
-          //     "radial-gradient(closest-side, rgba(20,24,62,0.06), transparent 40%), rgba(255,255,255,0)",
-          //   filter: "blur(20px)",
-          // }}
+          style={{
+            background:
+              "radial-gradient(closest-side, rgba(20,24,62,0.06), transparent 40%), rgba(255,255,255,0)",
+            filter: "blur(20px)",
+          }}
         />
 
         {/* Three layered cards (stack effect): render from bottom to top */}
         <div className="relative w-full flex items-center justify-start overflow-visible">
           <TestimonialCards
-            text="On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no."
+            text='"On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no."'
             name="Mike Taylor"
             location="Lahore, Pakistan"
           />

@@ -1,11 +1,12 @@
 import Image from "next/image";
 import InputIcon from "../../public/EnvelopeIcon.png";
 import DecoreSendButton from "../../public/DecoreSendButton.png";
+import ShinyDecore from "../../public/SubscriptionShinyDecore.png";
 
 export default function SubscriptionSection() {
   return (
     <section className="flex justify-center items-center mb-[200px] ">
-      <div className="bg-[#DFD7F9] rounded-tl-[64px] rounded-tr-[16px] py-[40px] px-[100px] relative bg-[url('/SubscriptionBgDecore1.png')_,_url('/SubscriptionBgDecore2.png')] bg-no-repeat  bg-[position:left_bottom_,_right_top] bg-[length:40%_,_20%]">
+      <div className="bg-[#DFD7F9] rounded-tl-[64px] rounded-tr-[16px] rounded-br-lg py-[40px] px-[100px] relative bg-[url('/SubscriptionBgDecore1.png')_,_url('/SubscriptionBgDecore2.png')] bg-no-repeat  bg-[position:left_bottom_,_right_top] bg-[length:40%_,_20%]">
         <h2 className="font-[poppins] text-[1.5rem] font-semibold text-center max-w-[600px] mb-[40px] text-[#5E6282]">
           Subscribe to get information, latest news and other interesting offers
           about Jadoo
@@ -36,6 +37,13 @@ export default function SubscriptionSection() {
           height="70"
           alt="Decoration send button for Subscription section"
           className="rounded-full w-[50] h-[50] bg-[purple] absolute top-[-20] right-[-15]"
+        />
+        <Image
+          src={ShinyDecore}
+          width="153"
+          height="166"
+          alt="Subscription shiny decoration image"
+          className="w-[100] h-[100px] absolute bottom-[-45px] right-[-65px]"
         />
       </div>
     </section>

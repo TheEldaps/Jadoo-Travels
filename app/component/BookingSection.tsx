@@ -7,8 +7,8 @@ import BookingStep3 from "../../public/BookingStep3.png";
 
 export default function BookingSection() {
   return (
-    <section className="flex justify-center mb-[50px] text-[#5E6282]">
-      <section className=" px-[50px] flex flex-col justify-center">
+    <section className="flex max-w-[1200px] justify-between px-[50px] mb-[50px] text-[#5E6282]">
+      <section className=" flex flex-col justify-center">
         <h3 className="font-[poppins] font-medium mb-[10px] text-[#5E6282]">
           Easy and Fast
         </h3>
@@ -36,13 +36,13 @@ export default function BookingSection() {
           />
         </ul>
       </section>
-      <section className=" pt-[0px] max-h-[500px] ">
+      <section className=" max-h-[500px] ">
         <Image
           src={BookingImage}
           width="655"
           height="789"
           alt="Booking Section Image"
-          className="block w-[500px] h-[560px] start object-cover"
+          className="block max-w-[550px] h-[500px]  object-cover"
         />
       </section>
     </section>
