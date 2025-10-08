@@ -3,6 +3,8 @@ import Image from "next/image";
 import SocialFacebook from "../../public/FooterFacebookLogo.png";
 import SocialInstagram from "../../public/FooterInstaLogo.png";
 import SocialTwitter from "../../public/FooterTwitterLogo.png";
+import GooglePlay from "../../public/FooterGooglePlay.png";
+import AppStore from "../../public/FooterAppStore.png";
 
 export default function FooterSection() {
   return (
@@ -47,8 +49,8 @@ export default function FooterSection() {
           />
         </div>
 
-        <div className="">
-          <div className="flex justify-evenly border-1">
+        <div className="text-[#5E6282]">
+          <div className="flex justify-evenly border-1 mb-[10px]">
             <Image
               src={SocialFacebook}
               width="30"
@@ -69,11 +71,21 @@ export default function FooterSection() {
             />
           </div>
 
-          <p>Discover our app</p>
+          <p className="">Discover our app</p>
 
-          <div>
-            <h3>Google play banner</h3>
-            <h3>Apple store banner</h3>
+          <div className="Flex ">
+            <Image
+              src={GooglePlay}
+              alt="Google play app download"
+              width="107"
+              height="35"
+            />
+            <Image
+              src={AppStore}
+              alt="App store app download"
+              width="107"
+              height="35"
+            />
           </div>
         </div>
       </div>
