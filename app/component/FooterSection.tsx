@@ -1,6 +1,8 @@
 import FooterCards from "./FooterCards";
 import Image from "next/image";
-import placeholderimage from "../../public/Avatar.png";
+import SocialFacebook from "../../public/FooterFacebookLogo.png";
+import SocialInstagram from "../../public/FooterInstaLogo.png";
+import SocialTwitter from "../../public/FooterTwitterLogo.png";
 
 export default function FooterSection() {
   return (
@@ -48,19 +50,19 @@ export default function FooterSection() {
         <div className="">
           <div className="flex justify-evenly border-1">
             <Image
-              src={placeholderimage}
+              src={SocialFacebook}
               width="30"
               height="30"
               alt="facebook logo"
             />
             <Image
-              src={placeholderimage}
+              src={SocialInstagram}
               width="30"
               height="30"
               alt="Instagram logo"
             />
             <Image
-              src={placeholderimage}
+              src={SocialTwitter}
               width="30"
               height="30"
               alt="twitter logo"
