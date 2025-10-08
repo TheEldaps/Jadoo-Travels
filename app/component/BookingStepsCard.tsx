@@ -11,7 +11,7 @@ export default function BookingStepsCard({
   img: StaticImageData;
 }) {
   return (
-    <li className="flex mb-[40px] items-center pr-[40px] max-w-[500px]">
+    <li className="flex mb-[40px] items-center pr-[40px] lg:max-w-[500px]">
       <Image
         src={img}
         width="50"
@@ -19,7 +19,7 @@ export default function BookingStepsCard({
         alt="Icon for booking steps"
         className="mr-[15px] w-[40px] h-[40px]"
       />
-      <div className="w-[]">
+      <div className="">
         <h4 className="font-bold">{title}</h4>
         <p>{description}</p>
       </div>

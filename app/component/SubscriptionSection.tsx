@@ -1,13 +1,13 @@
 import Image from "next/image";
-import InputIcon from "../../public/EnvelopeIcon.png";
+import EnvelopeIcon from "../../public/EnvelopeIcon.png";
 import DecoreSendButton from "../../public/DecoreSendButton.png";
 import ShinyDecore from "../../public/SubscriptionShinyDecore.png";
 
 export default function SubscriptionSection() {
   return (
-    <section className="flex justify-center items-center mb-[200px] ">
-      <div className="bg-[#DFD7F9] rounded-tl-[64px] rounded-tr-[16px] rounded-br-lg py-[40px] px-[100px] relative bg-[url('/SubscriptionBgDecore1.png')_,_url('/SubscriptionBgDecore2.png')] bg-no-repeat  bg-[position:left_bottom_,_right_top] bg-[length:40%_,_20%]">
-        <h2 className="font-[poppins] text-[1.5rem] font-semibold text-center max-w-[600px] mb-[40px] text-[#5E6282]">
+    <section className="flex justify-center items-center mb-[100px] px-[50px] ">
+      <div className="bg-[#DFD7F9] rounded-tl-[64px] rounded-tr-[16px] rounded-br-lg py-[40px] px-[60px] md:px-[100px] relative bg-[url('/SubscriptionBgDecore1.png')_,_url('/SubscriptionBgDecore2.png')] bg-no-repeat  bg-[position:left_bottom_,_right_top] bg-[length:40%_,_20%]">
+        <h2 className="font-[poppins] text-[1.2rem] sm:text-[1.5rem] font-semibold text-center max-w-[600px] mb-[40px] text-[#5E6282]">
           Subscribe to get information, latest news and other interesting offers
           about Jadoo
         </h2>
@@ -15,7 +15,7 @@ export default function SubscriptionSection() {
         <section className="flex  gap-4 max-w-[400px] mx-[auto] bg- ">
           <div className="flex flex-1 items-center px-[20px] bg-white h-12 rounded-lg gap-3">
             <Image
-              src={InputIcon}
+              src={EnvelopeIcon}
               alt=""
               width="20"
               height="20"

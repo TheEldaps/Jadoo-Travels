@@ -9,8 +9,8 @@ import Link from "next/link";
 
 export default function FooterSection() {
   return (
-    <section className=" text-[#5E6282] relative py-[50px]">
-      <div className="flex gap-15 mb-[80px] justify-evenly ">
+    <section className=" text-[#5E6282]  pb-[50px] px-[50px] border">
+      <div className="flex gap-15 mb-[80px] justify-evenly flex-wrap ">
         <div className="max-w-[200px]">
           <h2 className="font-medium mb-[20px] text-[2.5rem] font-[poppins] text-black">
             Jadoo.
