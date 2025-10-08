@@ -12,19 +12,19 @@ export default function SubscriptionSection() {
           about Jadoo
         </h2>
 
-        <section className="flex gap-4 max-w-[400px] mx-[auto] bg- ">
+        <section className="flex  gap-4 max-w-[400px] mx-[auto] bg- ">
           <div className="flex flex-1 items-center px-[20px] bg-white h-12 rounded-lg gap-3">
             <Image
               src={InputIcon}
               alt=""
               width="20"
               height="20"
-              className="block mt-[5px]"
+              className="block mt-[3px] w-[20px] h-[15px]"
             />
             <input
               type="text"
               placeholder="e.g jadoo@gmail.com"
-              className="block h-[70%] w-[100%]"
+              className="block h-[70%] w-[100%] font-[montserrat] text-[0.9rem]"
             />
           </div>
           <button className="hover:bg-[#ff7c6893] cursor-pointer bg-[#FF7D68] py-[10px] px-[30px] rounded-lg text-white text-[0.8rem]">
@@ -36,7 +36,7 @@ export default function SubscriptionSection() {
           width="70"
           height="70"
           alt="Decoration send button for Subscription section"
-          className="rounded-full w-[50] h-[50] bg-[purple] absolute top-[-20] right-[-15]"
+          className="rounded-full w-[50] h-[50] absolute top-[-20] right-[-15]"
         />
         <Image
           src={ShinyDecore}

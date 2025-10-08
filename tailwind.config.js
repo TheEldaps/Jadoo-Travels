@@ -11,6 +11,7 @@ module.exports = {
         poppins: ["var(--font-poppins)", "sans-serif"],
         volkhov: ["var(--font-volkhov)", "serif"],
         openSans: ["var(--font-open-sans)", "sans-serif"],
+        montserrat: ["var(--font-montserrat)", "sans-serif"],
       },
     },
   },

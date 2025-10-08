@@ -3,7 +3,13 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Poppins } from "next/font/google";
 import { Volkhov } from "next/font/google";
 import { Open_Sans } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+});
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -46,7 +52,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${volkhov.variable} ${openSans.variable} antialiased bg-[url('/DecoreCropped.png')] bg-no-repeat bg-[length:110%_auto] px-[10rem]`}
+        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${volkhov.variable} ${openSans.variable} ${montserrat.variable} antialiased bg-[url('/DecoreCropped.png')_,_url('/FooterCornerDecore.png')] bg-no-repeat bg-[length:110%_auto_,_40%_auto] bg-[position:left_top_,_right_bottom] px-[10rem]`}
       >
         {children}
       </body>
