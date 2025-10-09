@@ -4,9 +4,9 @@ import HeroImage from "../../public/HeroImage.png";
 
 export default function Hero() {
   return (
-    <section className="flex justify-evenly pt-[30px] px-[50px] mb-[200px]">
-      <section className="pt-10 max-w-[50%]">
-        <h3 className="text-[#DF6951] text-[1.2rem] font-[poppins] font-bold my-2 mb-5">
+    <section className="flex px-[50px] lg:px-[0px] pt-[30px] mb-[200px]">
+      <section className="pt-10 md:w-[50%] w-[100%] md:px-[0px] ">
+        <h3 className="text-[#DF6951] text-[1rem] sm:text-[1.2rem] font-[poppins] font-bold my-2 mb-5">
           BEST DESTINATIONS AROUND THE WORLD
         </h3>
 
@@ -46,13 +46,13 @@ export default function Hero() {
         </div>
       </section>
 
-      <section>
+      <section className="w-50% md:flex items-center hidden flex-1 border">
         <Image
           src={HeroImage}
           height="784"
           width="900"
           alt="hero section image"
-          className="w-"
+          className="block md:w-[100%] md:h-auto lg:pt-[10%] lg:w-"
         />
       </section>
     </section>

@@ -52,7 +52,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${volkhov.variable} ${openSans.variable} ${montserrat.variable} antialiased bg-[url('/DecoreCropped.png')_,_url('/FooterCornerDecore.png')] bg-no-repeat bg-[length:110%_auto_,_40%_auto] bg-[position:left_top_,_right_bottom] lg:px-[10rem] sm:bg-[red] md:bg-[blue] lg:bg-[grey]`}
+        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${volkhov.variable} ${openSans.variable} ${montserrat.variable} antialiased bg-[url('/DecoreCropped.png')_,_url('/FooterCornerDecore.png')] bg-no-repeat bg-[length:110%_auto_,_40%_auto] bg-[position:left_top_,_right_bottom] lg:px-[10rem] md:bg-[blue] lg:bg-[grey]`}
       >
         {children}
       </body>
