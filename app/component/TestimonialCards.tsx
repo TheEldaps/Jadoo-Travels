@@ -11,7 +11,7 @@ export default function TestimonialCards({
   location: string;
 }) {
   return (
-    <div className="flex bg-white max-w-[450px] font-[poppins]">
+    <div className="flex  max-w-[450px] font-[poppins]">
       <div className="flex-none w-14 h-14 rounded-full overflow-hidden ring-4 ring-white shadow-sm">
         <Image
           src={avatar}
@@ -22,7 +22,7 @@ export default function TestimonialCards({
         />
       </div>
 
-      <div className="flex-1 rounded-2xl px-[20px] py-[30px] shadow-lg">
+      <div className="flex-1 bg-white rounded-2xl px-[20px] py-[30px] shadow-lg">
         <p className="text-lg text-[0.95rem] text-gray-700 leading-relaxed">
           {text}
         </p>

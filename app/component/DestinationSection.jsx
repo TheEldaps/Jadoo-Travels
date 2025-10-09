@@ -16,7 +16,7 @@ export default function Destinations() {
         Top Destinations{" "}
       </h2>
 
-      <section className="flex justify-evenly gap-[20px]  flex-wrap ">
+      <section className="flex justify-evenly gap-[40px] px-[10%] lg:px-[20px] py-[20px] flex-wrap ">
         <DestinationCard
           img={Destination1}
           location="Rome, Italy"

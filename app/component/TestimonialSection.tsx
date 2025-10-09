@@ -2,16 +2,16 @@ import TestimonialCards from "./TestimonialCards";
 
 export default function TestimonialSection() {
   return (
-    <section className="max-w-7xl mx-auto px-8 py-20 grid grid-cols-1 lg:grid-cols-2 gap-8 items-start ">
+    <section className="w-[90%] mx-auto px-8 py-20 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center ">
       {/* Left: heading */}
-      <div className="order-2 lg:order-1">
+      <div className=" lg:order-1">
         <p className="text-sm font-semibold text-[#5E6282] uppercase tracking-wider">
           TESTIMONIALS
         </p>
         <h2 className="mt-4 text-5xl font-bold font-[volkhov] text-[#14183E] leading-tight">
           What People Say About Us.
         </h2>
-        <div className="mt-[80px] flex items-center gap-3 ">
+        <div className="mt-[80px] items-center hidden lg:flex gap-3 ">
           <span className="w-3 h-3 rounded-full bg-indigo-800/70" />
           <span className="w-3 h-3 rounded-full bg-gray-200" />
           <span className="w-3 h-3 rounded-full bg-gray-200" />

@@ -26,10 +26,10 @@ export default function CategorySection() {
         width="153"
         height="166"
         alt="category section decoration"
-        className="absolute right-[-30] top-[0] w-[120px]"
+        className="absolute w-[15%] lg:w-[120px] right-[0px] lg:right-[-30] top-[-30px] lg:top-[0] "
       />
 
-      <ul className="flex justify-evenly  flex-wrap ">
+      <ul className="flex justify-evenly gap-[20px] gap-y-[50px] flex-wrap ">
         <Card
           image={category1}
           description="Built Wicket longer admire do barton vanity itself do in it."

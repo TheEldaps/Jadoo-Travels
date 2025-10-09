@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function FooterSection() {
   return (
-    <section className=" text-[#5E6282]  pb-[50px] px-[50px] border">
+    <section className=" text-[#5E6282] bg-[linear-gradient(to_bottom_right,#fff_30%_,_#DFD7F9_70%)] py-[50px] px-[50px]">
       <div className="flex gap-15 mb-[80px] justify-evenly flex-wrap ">
         <div className="max-w-[200px]">
           <h2 className="font-medium mb-[20px] text-[2.5rem] font-[poppins] text-black">
