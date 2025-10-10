@@ -11,9 +11,7 @@ import FooterSection from "./component/FooterSection";
 export default function Home() {
   return (
     <>
-      <header className="mt-[30px]">
-        <Nav />
-      </header>
+      <header className="">{/* <Nav /> */}</header>
 
       <main>
         <HeroSection />

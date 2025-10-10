@@ -2,7 +2,7 @@ import TestimonialCards from "./TestimonialCards";
 
 export default function TestimonialSection() {
   return (
-    <section className="w-[90%] mx-auto px-8 py-20 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center ">
+    <section className=" px-[50px] py-20 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center lg:px-[13%] ">
       {/* Left: heading */}
       <div className=" lg:order-1">
         <p className="text-sm font-semibold text-[#5E6282] uppercase tracking-wider">

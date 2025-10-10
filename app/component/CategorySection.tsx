@@ -13,7 +13,7 @@ import Image from "next/image";
 
 export default function CategorySection() {
   return (
-    <section className="px-[30px] mb-[200px] relative">
+    <section className="px-[30px] mb-[200px] relative lg:px-[10%] overflow-hidden">
       <h3 className="font-[poppins] font-medium text-center mb-[20px] text-[#5E6282]">
         CATEGORY
       </h3>

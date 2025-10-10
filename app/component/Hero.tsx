@@ -4,9 +4,9 @@ import HeroImage from "../../public/HeroImage.png";
 
 export default function Hero() {
   return (
-    <section className="flex px-[50px] lg:px-[0px] pt-[30px] mb-[200px]">
-      <section className="pt-10 md:w-[50%] w-[100%] md:px-[0px] ">
-        <h3 className="text-[#DF6951] text-[1rem] sm:text-[1.2rem] font-[poppins] font-bold my-2 mb-5">
+    <section className="flex px-[50px] md:pt-[30px] mb-[100px] md:mb-[200px] lg:justify-center lg:gap-[50px]">
+      <section className="pt-10 md:w-[50%] w-[100%] max-w-[500px] md:px-[0px] ">
+        <h3 className="text-[#DF6951] text-[1rem] sm:text-[1.2rem] font-[poppins] font-bold my-2">
           BEST DESTINATIONS AROUND THE WORLD
         </h3>
 
@@ -22,9 +22,9 @@ export default function Hero() {
           and live a new and full life
         </h1>
 
-        <p className="mt-[20px] font-[poppins] text-justify max-w-[80%]">
+        <p className="mt-[20px] font-[poppins] text-justify ">
           Built wicket longer admire do barton vanity itself do in it.
-          Prefferred to sportsmen it engrossed listening.Park gate sell they
+          Prefferred to sportsmen it engrossed listening. Park gate sell they
           west hard for the.
         </p>
 
@@ -46,7 +46,7 @@ export default function Hero() {
         </div>
       </section>
 
-      <section className="w-50% md:flex items-center hidden flex-1 border">
+      <section className="w-50% max-w-[500px] md:flex items-center hidden flex-1">
         <Image
           src={HeroImage}
           height="784"

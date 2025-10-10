@@ -5,8 +5,8 @@ import ShinyDecore from "../../public/SubscriptionShinyDecore.png";
 
 export default function SubscriptionSection() {
   return (
-    <section className="flex justify-center items-center mb-[100px] p-[100px] ">
-      <div className=" bg-[#DFD7F9] rounded-tl-[64px] rounded-tr-[16px] rounded-br-lg py-[40px] px-[40px] md:px-[100px] relative sm:w-[contain] bg-[url('/SubscriptionBgDecore1.png')_,_url('/SubscriptionBgDecore2.png')] bg-no-repeat  bg-[position:left_bottom_,_right_top] bg-[length:40%_,_20%]">
+    <section className="flex justify-center items-center mb-[100px] p-[100px] overflow-hidden">
+      <div className=" bg-[#DFD7F9] rounded-tl-[64px] rounded-tr-[16px] rounded-br-lg py-[40px] px-[40px] md:px-[100px] relative sm:w-[contain] bg-[url('/SubscriptionBgDecore1.png')_,_url('/SubscriptionBgDecore2.png')] bg-no-repeat  bg-[position:left_bottom_,_right_top] bg-[length:40%_,_20%] ">
         <h2 className="font-[poppins] text-[1rem] sm:text-[1.5rem] font-semibold text-center max-w-[600px] mb-[40px] text-[#5E6282]">
           Subscribe to get information, latest news and other interesting offers
           about Jadoo

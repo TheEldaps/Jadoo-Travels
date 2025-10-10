@@ -11,7 +11,7 @@ export default function TestimonialCards({
   location: string;
 }) {
   return (
-    <div className="flex  max-w-[450px] font-[poppins]">
+    <div className="flex  max-w-[450px] font-[poppins] ">
       <div className="flex-none w-14 h-14 rounded-full overflow-hidden ring-4 ring-white shadow-sm">
         <Image
           src={avatar}

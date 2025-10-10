@@ -8,7 +8,7 @@ import DestinationDecore from "../../public/DestinationDecore.png";
 
 export default function Destinations() {
   return (
-    <section className="mb-[150px] ">
+    <section className="mb-[150px] lg:px-[10%] ">
       <h3 className="font-[poppins] font-medium text-center mb-[20px] text-[#5E6282]">
         Top Selling
       </h3>
