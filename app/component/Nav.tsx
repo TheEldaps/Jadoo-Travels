@@ -5,9 +5,7 @@ import NavLink from "./NavLink";
 import { useState } from "react";
 
 export default function Nav() {
-
-  const[openNav setOpenNav] = useState(false)
-
+  const [openNav, setOpenNav] = useState(false);
 
   return (
     <nav className="flex justify-between py-5 font-[poppins] border-b-2 items-center ">
@@ -15,11 +13,11 @@ export default function Nav() {
         <Image src={Logo} width="115" height="35" alt="Website Logo" />
       </Link>
 
-      <div className="flex flex-col">
+      <button className="flex flex-col">
         <span></span>
         <span></span>
         <span></span>
-      </div>
+      </button>
 
       <ul className="lg:flex hidden items-center gap-x-10">
         <NavLink href="" title="Destinations" />
