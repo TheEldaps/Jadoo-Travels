@@ -11,7 +11,9 @@ import FooterSection from "./component/FooterSection";
 export default function Home() {
   return (
     <>
-      <header className="">{/* <Nav /> */}</header>
+      <header className="">
+        <Nav />
+      </header>
 
       <main>
         <HeroSection />

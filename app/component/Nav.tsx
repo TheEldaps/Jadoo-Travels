@@ -2,15 +2,26 @@ import Image from "next/image";
 import Logo from "../../public/Logo.png";
 import Link from "next/link";
 import NavLink from "./NavLink";
+import { useState } from "react";
 
 export default function Nav() {
+
+  const[openNav setOpenNav] = useState(false)
+
+
   return (
     <nav className="flex justify-between py-5 font-[poppins] border-b-2 items-center ">
       <Link href="/">
         <Image src={Logo} width="115" height="35" alt="Website Logo" />
       </Link>
 
-      <ul className="flex items-center gap-x-10">
+      <div className="flex flex-col">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul className="lg:flex hidden items-center gap-x-10">
         <NavLink href="" title="Destinations" />
         <NavLink href="" title="Hotels" />
         <NavLink href="" title="Flights" />
