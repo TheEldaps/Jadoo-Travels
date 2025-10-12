@@ -9,7 +9,12 @@ export default function NavLink({
 }) {
   return (
     <li>
-      <Link href={href}>{title}</Link>
+      <Link
+        className=" hover:bg-[#a9a8a890] block px-[20px] py-[10px]"
+        href={href}
+      >
+        {title}
+      </Link>
     </li>
   );
 }
