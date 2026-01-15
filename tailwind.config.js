@@ -13,15 +13,7 @@ module.exports = {
         openSans: ["var(--font-open-sans)", "sans-serif"],
         montserrat: ["var(--font-montserrat)", "sans-serif"],
       },
-      animation: {
-        carousel: "carousel 25s linear infinite",
-      },
-      keyframes: {
-        carousel: {
-          "0%": { transform: "translateX(0)" },
-          "100%": { transform: "translateX(-50%)" },
-        },
-      },
     },
-    plugins: [],
-  };
+  },
+  plugins: []
+};
