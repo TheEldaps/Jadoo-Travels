@@ -5,15 +5,29 @@ import CarouselImage3 from "../../public/CarouselImage3.png";
 import CarouselImage4 from "../../public/CarouselImage4.png";
 import CarouselImage5 from "../../public/CarouselImage5.png";
 
+const images = [
+  CarouselImage1,
+  CarouselImage2,
+  CarouselImage3,
+  CarouselImage4,
+  CarouselImage5,
+];
+
 export default function CarouselSection() {
   return (
-    <section>
-      <div className="flex justify-evenly items-center my-[100px] border-y-1 py-[50px]">
-        <CarouselImage img={CarouselImage1} />
-        <CarouselImage img={CarouselImage2} />
-        <CarouselImage img={CarouselImage3} />
-        <CarouselImage img={CarouselImage4} />
-        <CarouselImage img={CarouselImage5} />
+    <section className="overflow-hidden">
+      <div className="my-[100px] border-y py-[50px]">
+        <div className="flex w-max animate-carousel gap-12">
+
+          {images.map((img, i) => (
+            <CarouselImage key={i} img={img} />
+          ))}
+
+
+          {images.map((img, i) => (
+            <CarouselImage key={`dup-${i}`} img={img} />
+          ))}
+        </div>
       </div>
     </section>
   );

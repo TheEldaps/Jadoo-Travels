@@ -15,7 +15,7 @@ export default function Nav() {
 
   return (
     <nav className="">
-      <section className="flex justify-between py-5 px-[5%] font-[poppins] border-b-2 items-center">
+      <section className="flex justify-between py-5 px-[5%] font-[poppins]  items-center">
         <Link href="/">
           <Image src={Logo} width="115" height="35" alt="Website Logo" />
         </Link>
