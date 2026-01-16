@@ -12,3 +12,7 @@
 .animate-carousel {
   animation: carousel 25s linear infinite;
 }
+
+html {
+  scroll-behavior: smooth;
+}

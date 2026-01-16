@@ -14,7 +14,7 @@ export default function Nav() {
   }
 
   return (
-    <nav className="">
+    <nav className="fixed w-full z-3 backdrop-blur-sm">
       <section className="flex justify-between py-5 px-[5%] font-[poppins]  items-center">
         <Link href="/">
           <Image src={Logo} width="115" height="35" alt="Website Logo" />
@@ -25,7 +25,7 @@ export default function Nav() {
           onClick={handleClick}
         >
           {openNav ? (
-            <span> X </span>
+            <span className='text-[1rem]'> ✕ </span>
           ) : (
             <div className="flex flex-col gap-[5px] ">
               <div className="w-[20px] h-[3px] bg-black"></div>

@@ -2,7 +2,7 @@ import TestimonialCards from "./TestimonialCards";
 
 export default function TestimonialSection() {
   return (
-    <section className=" px-[50px] py-20 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center lg:px-[13%] ">
+    <section id='testimonial' className=" px-[50px] py-20 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center lg:px-[13%] ">
       {/* Left: heading */}
       <div className=" lg:order-1">
         <p className="text-sm font-semibold text-[#5E6282] uppercase tracking-wider">
@@ -47,18 +47,18 @@ export default function TestimonialSection() {
           </div>
 
           {/* Top card actual content */}
-        </div>
+        </div >
 
         {/* right-side vertical arrows (optional) */}
-        <div className="absolute right-0 top-1/2 -translate-y-1/2 flex flex-col items-end gap-6">
+        < div className="absolute right-0 top-1/2 -translate-y-1/2 flex flex-col items-end gap-6" >
           <button className="w-8 h-8 rounded-full bg-white shadow-sm grid place-items-center">
             ↑
           </button>
           <button className="w-8 h-8 rounded-full bg-white shadow-sm grid place-items-center">
             ↓
           </button>
-        </div>
-      </div>
-    </section>
+        </div >
+      </div >
+    </section >
   );
 }

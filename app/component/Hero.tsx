@@ -4,7 +4,7 @@ import HeroImage from "../../public/HeroImage.png";
 
 export default function Hero() {
   return (
-    <section className="flex px-[50px] md:pt-[30px] mb-[100px] md:mb-[200px] lg:justify-center lg:gap-[50px]">
+    <section id='home' className="flex px-[50px] pt-[80px] md:pt-[50px] mb-[100px] md:mb-[200px] lg:justify-center lg:gap-[50px]">
       <section className="pt-10 md:w-[50%] w-[100%] max-w-[500px] md:px-[0px] ">
         <h3 className="text-[#DF6951] text-[1rem] sm:text-[1.2rem] font-[poppins] font-bold my-2">
           BEST DESTINATIONS AROUND THE WORLD
@@ -13,7 +13,7 @@ export default function Hero() {
         <h1 className="font-[volkhov] text-[#181E4B] text-[5rem] font-bold leading-[80px] tracking-tighter">
           Travel,{" "}
           <span className="relative inline-block">
-            <span className="relative z-10">enjoy</span>
+            <span className="relative z-2">enjoy</span>
             <span
               aria-hidden="true"
               className="absolute left-0 right-0 -bottom-1 z-0 w-full h-3 bg-no-repeat bg-center bg-contain bg-[url('/UnderlineDecoreEdit.png')]"
