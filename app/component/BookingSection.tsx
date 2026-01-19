@@ -7,7 +7,7 @@ import BookingStep3 from "../../public/BookingStep3.png";
 
 export default function BookingSection() {
   return (
-    <section id='booking' className="flex flex-col lg:flex-row  lg:justify-between px-[50px] mb-[50px] text-[#5E6282] lg:px-[10%]">
+    <section id='booking' className=" bg-[linear-gradient(to_top_right,#DFD7F9_30%_,_#fff_70%)] flex flex-col lg:flex-row  lg:justify-between px-[50px] pt-[100px] mb-[50px] text-[#5E6282] lg:px-[10%]">
       <section className=" flex flex-col justify-center mx-[auto]">
         <h3 className="font-[poppins] font-medium mb-[10px] text-[#5E6282]">
           Easy and Fast

@@ -13,7 +13,7 @@ export default function DestinationCard({
   triplength: string;
 }) {
   return (
-    <section className="rounded-3xl  relative min-h-[500px] min-w-[300px] shadow-2xl">
+    <section className=" rounded-3xl  relative min-h-[500px] min-w-[300px] shadow-2xl">
       <Image
         src={img}
         height={200}

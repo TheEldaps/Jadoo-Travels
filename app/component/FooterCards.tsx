@@ -22,13 +22,13 @@ export default function FooterCards({
       <h3 className="mb-5 font-bold text-black ">{heading}</h3>
       <ul className="flex flex-col gap-1 font-medium text-[0.9rem]">
         <li>
-          <Link href={href1}>{link1}</Link>
+          <Link href={href1} className='hover:text-[#5e6282c3]'>{link1}</Link>
         </li>
         <li>
-          <Link href={href2}>{link2}</Link>
+          <Link href={href2} className='hover:text-[#5e6282c3]'>{link2}</Link>
         </li>
         <li>
-          <Link href={href3}>{link3}</Link>
+          <Link href={href3} className='hover:text-[#5e6282c3]'>{link3}</Link>
         </li>
       </ul>
     </div>

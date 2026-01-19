@@ -13,7 +13,7 @@ import Image from "next/image";
 
 export default function CategorySection() {
   return (
-    <section id='category' className="px-[30px] mb-[200px] relative lg:px-[10%] overflow-hidden">
+    <section id='category' className=" bg-[linear-gradient(to_top_right,#fff_30%_,_#DFD7F9_70%)] px-[30px] py-[50px] md:mb-[200px] relative lg:px-[10%] overflow-hidden">
       <h3 className="font-[poppins] font-medium text-center mb-[20px] text-[#5E6282]">
         CATEGORY
       </h3>
